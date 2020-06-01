@@ -1,0 +1,66 @@
+.heading-primary {
+    /*  color for the gradient of text */
+    background: radial-gradient(circle at 30% 135%,
+            $insta-1 0%, $insta-1 5%,
+            $insta-2 45%, $insta-3 60%, $insta-4 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Freckle Face',
+    cursive;
+
+    &--main{
+        display: block;
+        font-size: 13rem;
+    }
+
+    &--sub{
+         display: block;
+         letter-spacing: 3px;
+         text-transform: uppercase;
+         font-family: 'Roboto',
+         sans-serif;
+         font-weight: 300;
+         font-size: 4.5rem;
+    }
+}
+
+.font-size-2rem{
+    font-size: 2rem;
+}
+
+.font-size-4rem{
+    font-size: 4rem;
+}
+
+.font-size-6rem{
+    font-size: 6rem;
+}
+
+.font-size-8rem {
+    font-size: 8rem;
+}
+
+.font-size-10rem {
+    font-size: 10rem;
+}
+
+.font-weight-400{
+    font-weight: 400;
+}
+
+.font-weight-700{
+    font-weight: 700;
+}
+
+.hr-rule{
+    border-top: 4px $insta-4;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.padding{
+    padding-top: 2rem;
+}

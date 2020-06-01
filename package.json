@@ -1,0 +1,14 @@
+{
+  "name": "offendyou",
+  "version": "1.0.0",
+  "description": "an offensive social media",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss stylesheet/styles.css -w"
+  },
+  "author": "rreell",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
